@@ -32,7 +32,7 @@ function generarMenu(menuData) {
   
   // Función para cargar el menú desde el archivo JSON
   function cargarMenu() {
-    fetch('https://luisrsoto.github.io/MenuDinamicoJSON/menu.json') // Asegúrate de usar la ruta correcta a tu archivo JSON en el servidor
+    fetch('https://raw.githubusercontent.com/LuisRSoto/MenuDinamicoJSON/refs/heads/main/menu.json') // Asegúrate de usar la ruta correcta a tu archivo JSON en el servidor
       .then(response => response.json())
       .then(data => {
         generarMenu(data);
