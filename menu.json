@@ -1,0 +1,50 @@
+{
+  "menu": [
+  {
+    "nombre": "Inicio",
+    "enlace": "index.html",
+    "submenu": []
+  },
+  {
+    "nombre": "Juegos",
+    "enlace": "#",
+    "submenu": [
+      { "nombre": "Lanzamientos", "enlace": "lanzamientos.html" },
+      { "nombre": "Más Vendidos", "enlace": "mas-vendidos.html" },
+      { "nombre": "Próximos", "enlace": "proximos.html" }
+    ]
+  },
+  {
+    "nombre": "Ofertas",
+    "enlace": "#",
+    "submenu": [
+      { "nombre": "Descuentos", "enlace": "descuentos.html" },
+      { "nombre": "Bundles", "enlace": "bundles.html" },
+      { "nombre": "Ofertas Relámpago", "enlace": "ofertas-relampago.html" }
+    ]
+  },
+  {
+    "nombre": "Accesorios",
+    "enlace": "#",
+    "submenu": [
+      { "nombre": "Controles", "enlace": "controles.html" },
+      { "nombre": "Auriculares", "enlace": "auriculares.html" },
+      { "nombre": "Almacenamiento", "enlace": "almacenamiento.html" }
+    ]
+  },
+  {
+    "nombre": "Consolas",
+    "enlace": "#",
+    "submenu": [
+      { "nombre": "PlayStation", "enlace": "playstation.html" },
+      { "nombre": "Xbox", "enlace": "xbox.html" },
+      { "nombre": "Nintendo", "enlace": "nintendo.html" }
+    ]
+  },
+  {
+    "nombre": "Nosotros",
+    "enlace": "nosotros.html",
+    "submenu": []
+  }
+]
+}
